@@ -1,0 +1,34 @@
+{
+  "name": "@beseto76/AMB-guru",
+  "version": "0.1.0",
+  "description": "AMB tutor — a Pi package bundling a custom system prompt, tools, and slash commands.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "pi-coding-agent",
+    "tutor"
+  ],
+  "files": [
+    "SYSTEM.md",
+    "extensions",
+    "prompts",
+    "wiki",
+    "package.json",
+    "README.md"
+  ],
+  "pi": {
+    "systemPrompt": "./SYSTEM.md",
+    "extensions": [
+      "./extensions"
+    ],
+    "prompts": [
+      "./prompts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
